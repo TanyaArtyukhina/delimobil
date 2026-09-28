@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Делимобиль — Каршеринг для ежедневных поездок</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/index_adaptive.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header__container">
+      <div class="header__logo">ДЕЛИМОБИЛЬ</div>
+      <nav class="header__nav">
+        <a href="#" class="header__link">Каршеринг</a>
+        <a href="#" class="header__link">Для бизнеса</a>
+        <a href="#" class="header__link">О компании</a>
+      </nav>
+      <button class="button button--mint header__button" type="button">Скачать</button>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__container">
+        <div class="hero__content">
+          <h1 class="hero__title">Каршеринг для ежедневных поездок</h1>
+          <p class="hero__subtitle">Удобное мобильное приложение с выгодными ценами</p>
+          <button class="button button--purple hero__button" type="button">Скачать</button>
+        </div>
+        <div class="hero__image">
+          <img src="images/hero-phone.png" alt="Мобильное приложение Делимобиль">
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK START -->
+    <section class="quick-start">
+      <div class="container">
+        <h2 class="section-title">Быстрый старт</h2>
+        <div class="quick-start__grid">
+          <article class="step-card">
+            <h3 class="step-card__title">Сфотографируйте документы</h3>
+            <p class="step-card__text">Для договора нам нужны: паспорт, водительское удостоверение и банковская карта</p>
+            <img src="images/step-documents.png" alt="Документы для регистрации" class="step-card__image">
+          </article>
+          <article class="step-card">
+            <h3 class="step-card__title">Выберите авто на карте</h3>
+            <p class="step-card__text">В мобильном приложении выберите понравившееся авто</p>
+            <img src="images/step-car.png" alt="Выбор автомобиля на карте" class="step-card__image">
+          </article>
+          <article class="step-card">
+            <h3 class="step-card__title">Проверьте авто и начните поездку</h3>
+            <p class="step-card__text">Перед поездкой обязательно проверьте авто на наличие повреждений</p>
+            <img src="images/step-app.png" alt="Проверка автомобиля перед поездкой" class="step-card__image">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TARIFFS -->
+    <section class="tariffs">
+      <div class="container">
+        <h2 class="section-title">Большой автопарк</h2>
+        <div class="tariffs__grid">
+          <article class="tariff-card">
+            <h3 class="tariff-card__title">Для ежедневных поездок</h3>
+            <div class="tariff-card__badges">
+              <span class="badge">С 18 лет</span>
+              <span class="badge">Без стажа</span>
+            </div>
+            <img src="images/car-1.png" alt="Кроссовер для ежедневных поездок" class="tariff-card__image">
+          </article>
+          <article class="tariff-card">
+            <h3 class="tariff-card__title">На деловую встречу</h3>
+            <div class="tariff-card__badges">
+              <span class="badge">С 21 года</span>
+              <span class="badge">Стаж 3 года</span>
+            </div>
+            <img src="images/car-2.png" alt="Седан для деловых встреч" class="tariff-card__image">
+          </article>
+          <article class="tariff-card">
+            <h3 class="tariff-card__title">Для активного отдыха</h3>
+            <div class="tariff-card__badges">
+              <span class="badge">С 24 лет</span>
+              <span class="badge">Стаж 3 года</span>
+            </div>
+            <img src="images/car-3.png" alt="Спорткар для активного отдыха" class="tariff-card__image">
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- BENEFITS / TARIFFS BANNER -->
+    <section class="benefits">
+      <div class="container">
+        <h2 class="section-title">Тарифы</h2>
+        <div class="benefits__container">
+          <img src="images/tariff-car.jpg" alt="" class="benefits__bg" aria-hidden="true">
+          <div class="benefits__overlay" aria-hidden="true"></div>
+          <div class="benefits__content">
+            <div class="benefits__tags">
+              <span class="benefits__tag">Фиксированный</span>
+              <span class="benefits__tag">Поминутный</span>
+              <span class="benefits__tag">Посуточный</span>
+              <span class="benefits__tag">По подписке</span>
+            </div>
+            <p class="benefits__text">Стоимость поездки всегда известна заранее. Просто установите точку на карте</p>
+            <div class="benefits__prices">
+              <div class="benefits__price">
+                <span class="benefits__price-name">Комфорт</span>
+                <span class="benefits__price-value">от 140 ₽</span>
+              </div>
+              <div class="benefits__price">
+                <span class="benefits__price-name">Бизнес</span>
+                <span class="benefits__price-value">от 230 ₽</span>
+              </div>
+              <div class="benefits__price">
+                <span class="benefits__price-name">Спорткар</span>
+                <span class="benefits__price-value">от 300 ₽</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer__container">
+      <div class="footer__logo">ДЕЛИМОБИЛЬ</div>
+      <nav class="footer__nav">
+        <a href="#" class="footer__link">Главная</a>
+        <a href="#" class="footer__link">Каршеринг</a>
+        <a href="#" class="footer__link">Для бизнеса</a>
+        <a href="#" class="footer__link">О компании</a>
+      </nav>
+      <a href="tel:+79875826627" class="footer__phone">+7 (987) 582-66-27</a>
+      <button class="button button--mint footer__button" type="button">Скачать</button>
+    </div>
+  </footer>
+
+</body>
+</html>
